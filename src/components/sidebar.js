@@ -7,24 +7,25 @@ export default class Sidebar extends React.Component {
             <div id="sidebar">
             <div id="sidebar-top">
                 <h2>CUnite</h2>
-                <img src="./menu.svg" />
+                <img id="sidebar-icon" src="./menu.svg" />
             </div>
             <div id="sidebar-mid">
                 <div className="sidebar-mid-option">
-                    <img src="./home.svg" />
-                    <NavLink to="/" exact={true}>Dashboard</NavLink>
+                    <img className="sidebar-icon" src="./grid.svg" />
+                    <NavLink to="/" exact="true" activeClassName="is-active">Dashboard</NavLink>
+                    <NavLink to="/" exact="true" activeClassName="is-active-icon"><img className="sidebar-last-icon" src="./DownArrow.svg" /></NavLink>
                 </div>
                 <div className="sidebar-mid-option">
-                    <img src="./home.svg" />
-                    <NavLink to="/profile" >Profile</NavLink>
+                    <img className="sidebar-icon" src="./home.svg" />
+                    <NavLink to="/explore" activeClassName="is-active" >Explore</NavLink>
                 </div>
                 <div className="sidebar-mid-option">
-                    <img src="./home.svg" />
-                    <NavLink to="/admin" >Admin</NavLink>
+                    <img className="sidebar-icon" src="./home.svg" />
+                    <NavLink to="/profile" activeClassName="is-active">Profile</NavLink>
                 </div>
                 <div className="sidebar-mid-option">
-                    <img src="./home.svg" />
-                    <NavLink to="/create" >Dashboard</NavLink>
+                    <img className="sidebar-icon" src="./home.svg" />
+                    <NavLink to="/settings" activeClassName="is-active">Settings</NavLink>
                 </div>
             </div>
         </div>

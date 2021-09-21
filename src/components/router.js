@@ -17,8 +17,8 @@ export default class Router extends React.Component {
                 <Appbar></Appbar>
                 <div>
                     <Route path="/" component={Dashboard} exact="true"></Route>
-                    <Route path="/profile" activeClassName="is-active" component={Profile}></Route>
-                    <Route path="/admin" activeClassName="is-active" component={Admin}></Route>
+                    <Route path="/profile" component={Profile}></Route>
+                    <Route path="/admin" component={Admin}></Route>
                 </div>
                 </div>
             </BrowserRouter>
