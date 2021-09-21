@@ -13,15 +13,26 @@ export default class Sidebar extends React.Component {
                 <div className="sidebar-mid-option">
                     <img className="sidebar-icon" src="./grid.svg" />
                     <NavLink to="/" exact="true" activeClassName="is-active">Dashboard</NavLink>
-                    <NavLink to="/" exact="true" activeClassName="is-active-icon"><img className="sidebar-last-icon" src="./DownArrow.svg" /></NavLink>
                 </div>
                 <div className="sidebar-mid-option">
                     <img className="sidebar-icon" src="./home.svg" />
-                    <NavLink to="/explore" activeClassName="is-active" >Explore</NavLink>
+                    <NavLink to="/explore-clubs" activeClassName="is-active" >Explore Clubs</NavLink>
                 </div>
                 <div className="sidebar-mid-option">
                     <img className="sidebar-icon" src="./home.svg" />
-                    <NavLink to="/profile" activeClassName="is-active">Profile</NavLink>
+                    <NavLink to="/myclubs" activeClassName="is-active">My Clubs</NavLink>
+                </div>
+                <div className="sidebar-mid-option">
+                    <img className="sidebar-icon" src="./home.svg" />
+                    <NavLink to="/mentorships" activeClassName="is-active">Mentorships</NavLink>
+                </div>
+                <div className="sidebar-mid-option">
+                    <img className="sidebar-icon" src="./home.svg" />
+                    <NavLink to="/taskmanagement" activeClassName="is-active">Task Management</NavLink>
+                </div>
+                <div className="sidebar-mid-option">
+                    <img className="sidebar-icon" src="./home.svg" />
+                    <NavLink to="/chatarea" activeClassName="is-active">Chat Area</NavLink>
                 </div>
                 <div className="sidebar-mid-option">
                     <img className="sidebar-icon" src="./home.svg" />

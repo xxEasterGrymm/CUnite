@@ -2,9 +2,11 @@ import { BrowserRouter, Route } from "react-router-dom";
 import React from "react";
 import Sidebar from "./sidebar";
 import Dashboard from "./dashboard";
-import Profile from "./profile";
 import Admin from "./admin";
 import Appbar from "./appbar";
+import ExploreEvents from "../side-components/explore-events";
+import ExploreClubs from "../side-components/explore-clubs";
+import ExploreBlogs from "../side-components/explore-blogs";
 
 
 
@@ -17,7 +19,11 @@ export default class Router extends React.Component {
                 <Appbar></Appbar>
                 <div>
                     <Route path="/" component={Dashboard} exact="true"></Route>
-                    <Route path="/profile" component={Profile}></Route>
+                    <Route path="/explore-clubs" component={ExploreClubs}>
+                    </Route>
+                    <Route path="/explore-events" component={ExploreEvents}></Route>
+                    <Route path="/explore-blogs" component={ExploreBlogs}>
+                    </Route>
                     <Route path="/admin" component={Admin}></Route>
                 </div>
                 </div>

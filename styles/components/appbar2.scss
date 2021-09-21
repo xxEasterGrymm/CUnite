@@ -1,0 +1,50 @@
+#appbar2{
+    display: flex;
+    flex-direction: column;
+}
+#appbar2-appbar{
+    height: 20%;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+#appbar2-clubsection{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
+#appbar2-appbar-search-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.3rem;
+}
+#appbar2-appbar-search-section h2{
+    font-size: 18px;
+}
+.appbar2-icon{
+    width: 25px;
+    margin-left: 0.5rem;
+    background-color: #EAE6FB;
+    padding: 3px;
+}
+#appbar2-appbar-filter-section{
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.appbar2-buttons{
+    padding: 0.4rem 1.3rem;
+    border: #a9a2c7 solid 2px;
+    margin-left: 0.8rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+#appbar2-icon{
+    background-color: #5C38FF
+    ;
+}
