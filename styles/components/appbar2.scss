@@ -1,6 +1,7 @@
 #appbar2{
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 #appbar2-appbar{
     height: 20%;
@@ -12,8 +13,9 @@
 }
 #appbar2-clubsection{
     background-color: red;
-    height: 100%;
+    height: 300%;
     width: 100%;
+    background-color: #f6f7f9;
 }
 #appbar2-appbar-search-section{
     display: flex;
@@ -32,7 +34,7 @@
 }
 #appbar2-appbar-filter-section{
     display: flex;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     align-items: center;
 }
 
@@ -45,6 +47,10 @@
 }
 
 #appbar2-icon{
-    background-color: #5C38FF
-    ;
+    background-color: #5C38FF;
+}
+
+.active-appbar2{
+    background-color: #EAE6FB;
+    border-color: #5C38FF !important;
 }

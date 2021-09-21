@@ -10,8 +10,7 @@
 .Clubs {
   font-size: 1rem;
   margin: 1rem;
-  padding: 2rem;
-  min-width: 20rem;
+  min-width: 10rem;
   min-height: 20rem;
   background-color: white;
   border-radius: 1rem;
@@ -22,17 +21,16 @@
   box-shadow: 2px 12px 15px #999;
 }
 
-img {
+.LogoImage img {
   width: 4rem;
   height: 4rem;
   margin-top: 1rem;
 }
-h2 {
-  margin-top: 3rem;
+.LogoImage h2 {
+  margin-top: 1.5rem;
 }
 p {
   padding: 1rem;
-  width: 15rem;
 }
 button {
   padding: 0.5rem;

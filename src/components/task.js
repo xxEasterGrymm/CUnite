@@ -1,10 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-export default class Appbar2 extends React.Component {
+export default class Task extends React.Component {
     render(){
         return (
-                <div id="appbar2-appbar">
+            <div className="bg-color">
+             <div id="appbar2-appbar">
                 <div id="appbar2-appbar-search-section">
                     <h2>Search</h2>
                     <div>
@@ -15,12 +16,14 @@ export default class Appbar2 extends React.Component {
                 </div>
                 <div id="appbar2-appbar-filter-section">
                     <h4>Smart Filter</h4>
-                    <NavLink to="/explore-clubs" activeClassName="active-appbar2" className="appbar2-buttons">Clubs</NavLink>
-                    <NavLink to="/explore-events" activeClassName="active-appbar2" className="appbar2-buttons">Upcoming Events</NavLink>
-                    <NavLink to="/explore-blogs" activeClassName="active-appbar2" className="appbar2-buttons">Latest Blog Posts</NavLink>
-                    <NavLink to="/explore-projects" activeClassName="active-appbar2" className="appbar2-buttons">Top Projects</NavLink>
+                    <NavLink to="/taskmanagement" activeClassName="active-appbar2" className="appbar2-buttons">All</NavLink>
+                    <NavLink to="/taskmanagement" className="appbar2-buttons">Done</NavLink>
+                    <NavLink to="/taskmanagement" className="appbar2-buttons">Doing</NavLink>
+                    <NavLink to="/taskmanagement" className="appbar2-buttons">Completed</NavLink>
                 </div>
                 </div>
+            <img id="task-img" src="./task.jpg"/>
+            </div>
         );
     }
 }

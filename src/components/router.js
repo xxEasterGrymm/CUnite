@@ -7,6 +7,8 @@ import Appbar from "./appbar";
 import ExploreEvents from "../side-components/explore-events";
 import ExploreClubs from "../side-components/explore-clubs";
 import ExploreBlogs from "../side-components/explore-blogs";
+import Task from "./task";
+import MyClub from "./myclub";
 
 
 
@@ -17,14 +19,15 @@ export default class Router extends React.Component {
                 <Sidebar></Sidebar>
                 <div id="root-1">
                 <Appbar></Appbar>
-                <div>
+                <div className="upper-div">
                     <Route path="/" component={Dashboard} exact="true"></Route>
                     <Route path="/explore-clubs" component={ExploreClubs}>
                     </Route>
                     <Route path="/explore-events" component={ExploreEvents}></Route>
                     <Route path="/explore-blogs" component={ExploreBlogs}>
                     </Route>
-                    <Route path="/admin" component={Admin}></Route>
+                    <Route path="/taskmanagement" component={Task}></Route>
+                    <Route path="/myclubs" component={MyClub}></Route>
                 </div>
                 </div>
             </BrowserRouter>

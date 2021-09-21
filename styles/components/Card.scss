@@ -9,18 +9,8 @@
 }
 
 .CardLayout {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
-  margin: 5rem;
   padding: 2.5rem;
-}
-
-h1 {
-  font-size: 3rem;
-  font-family: "Poppins", sans-serif;
-  color: #5c38ff;
-  padding: 4rem;
-  text-shadow: 2px 10px 10px #999;
 }

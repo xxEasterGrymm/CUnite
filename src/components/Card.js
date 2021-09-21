@@ -1,6 +1,5 @@
 import React from "react";
 import Clubs from "./Clubs";
-import "./Card.css";
 import js from "./ASSETS/js.png";
 import python from "./ASSETS/python.png";
 import reactjs from "./ASSETS/react.png";

@@ -1,12 +1,12 @@
 import React from "react";
-import Appbar2 from "../components/appbar2";
-import Clubs from "../components/Clubs";
+import Appbar2 from "./appbar2";
+import Clubs from "./Clubs";
 
-export default class ExploreEvents extends React.Component {
+export default class MyClub extends React.Component {
     render(){
         return (
             <div id="appbar2">
-                <Appbar2 />
+                <Appbar2/>
                 <div id="appbar2-clubsection">
                         <div className="CardLayout">
                             <Clubs
@@ -23,7 +23,7 @@ export default class ExploreEvents extends React.Component {
                             ></Clubs>
                         </div>
                     </div>
-                </div>
+            </div>
         );
     }
 }
