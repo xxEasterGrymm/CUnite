@@ -12,7 +12,7 @@ export default class Sidebar extends React.Component {
             <div id="sidebar-mid">
                 <div className="sidebar-mid-option">
                     <img src="./home.svg" />
-                    <NavLink to="/" >Dashboard</NavLink>
+                    <NavLink to="/" exact={true}>Dashboard</NavLink>
                 </div>
                 <div className="sidebar-mid-option">
                     <img src="./home.svg" />
