@@ -13,11 +13,13 @@ export default class Router extends React.Component {
         return (
             <BrowserRouter>
                 <Sidebar></Sidebar>
+                <div id="root-1">
                 <Appbar></Appbar>
                 <div>
                     <Route path="/" component={Dashboard} exact="true"></Route>
                     <Route path="/profile" activeClassName="is-active" component={Profile}></Route>
                     <Route path="/admin" activeClassName="is-active" component={Admin}></Route>
+                </div>
                 </div>
             </BrowserRouter>
         );
