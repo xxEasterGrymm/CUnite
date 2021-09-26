@@ -1,8 +1,27 @@
 #appbar{
     background-color: white;
-    height: 8.5vh
+    height: 8.5vh;
+    display: flex;
+    align-items: center;
 }
 
 #appbar img{
     width: 100%;
+}
+
+#appbar-icon{
+    width: 25px !important;
+}
+
+#appbar-space{
+    width: 100px;
+}
+
+#appbar-search{
+    width: 40rem;
+    height: 2.2rem;
+    margin-left: 2rem;
+    background-color: rgba(0,0,0,0.05);
+    border: none;
+    border-radius: 6px;
 }
