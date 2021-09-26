@@ -1,0 +1,10 @@
+<svg id="ic_inbox" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#7e84a3;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <path id="Path_376" data-name="Path 376" d="M0 0h24v24H0z" style="fill:none"/>
+    <rect id="Rectangle_603" data-name="Rectangle 603" class="cls-2" width="18" height="14" rx="2" transform="translate(3 5)"/>
+    <path id="Path_377" data-name="Path 377" class="cls-2" d="m3 7 9 6 9-6"/>
+</svg>

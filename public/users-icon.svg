@@ -1,0 +1,12 @@
+<svg id="ic_users" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#7e84a3;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <path id="Path_393" data-name="Path 393" d="M0 0h24v24H0z" style="fill:none"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-2" cx="4" cy="4" r="4" transform="translate(5 3)"/>
+    <path id="Path_394" data-name="Path 394" class="cls-2" d="M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/>
+    <path id="Path_395" data-name="Path 395" class="cls-2" d="M16 3.13a4 4 0 0 1 0 7.75"/>
+    <path id="Path_396" data-name="Path 396" class="cls-2" d="M21 21v-2a4 4 0 0 0-3-3.85"/>
+</svg>

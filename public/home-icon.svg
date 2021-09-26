@@ -1,0 +1,11 @@
+<svg id="ic_home" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#92929d;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <path id="Path_372" data-name="Path 372" d="M0 0h24v24H0z" style="fill:none"/>
+    <path id="Path_373" data-name="Path 373" class="cls-2" d="M5 12H3l9-9 9 9h-2"/>
+    <path id="Path_374" data-name="Path 374" class="cls-2" d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/>
+    <path id="Path_375" data-name="Path 375" class="cls-2" d="M9 21v-6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v6"/>
+</svg>
