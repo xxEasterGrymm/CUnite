@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+$Raleway-Font: 'Raleway', sans-serif;
 $Primary: #BB2226;
 $Secondary: #19386F;
 $Button-Primary: #161A4D;
@@ -7,6 +10,7 @@ $Header: #111111;
 $Sub-Header: #666666;
 $Red: #bb2226;
 $Light-Red: rgba(187, 34, 38, 0.1);
+$Background: #f5f5f5;
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -18,4 +22,69 @@ $Light-Red: rgba(187, 34, 38, 0.1);
 
 #root{
     display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
+
+.upper-div{
+    background-color: $Background;
+    margin-top: 68px;
+}
+
+.active-red{
+    background-color: $Red !important;
+    color: white !important;
+}
+.DownArrow1{
+    width: 15px !important;
+    margin-left: 6px;
+}
+.DownArrow2{
+    width: 15px !important;
+    margin-right: 25px;
+}
+.RightArrow{
+    width: 15px !important;
+    margin-left: 6px;
+    transform: rotate(-90deg);
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #ffd1d1;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .small-dot1 {
+    width: 10px;
+  height: 10px;
+  display: inline-block;
+
+  border-radius: 6px;
+  background-color: #21d59b;
+  }
+  .small-dot2 {
+    width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-left: 40px;
+
+  border-radius: 6px;
+  background-color: #bb2226;
+  }
+  .square{
+    width: 12px;
+    height: 12px;
+    margin: 4px 20px 4px 0;
+    border-radius: 2px;
+    background-color: #0058ff;
+  }
+  .hr{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-top: 26px;
+    margin-bottom: 20px;
+  }

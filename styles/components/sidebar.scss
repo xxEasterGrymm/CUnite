@@ -25,7 +25,7 @@
     width: 100%;
 }
 .sidebar-mid-option a:active{
-    color: black !important;
+    color: $Red !important;
 }
 #sidebar-top{
     display: flex;
@@ -34,7 +34,7 @@
     margin: 1.5rem 1rem 1rem 1.2rem;
 }
 #sidebar-mid {
-    margin-top: 2.5rem;
+    margin-top: 5.5rem;
 }
 
 header{
