@@ -1,0 +1,11 @@
+<svg id="ic-arrow-narrow-up" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#1fd286;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <path id="Path_397" data-name="Path 397" d="M0 0h16v16H0z" style="fill:none"/>
+    <path id="Line_23" data-name="Line 23" class="cls-2" transform="translate(8.063 2.874)" d="M0 0v10.126"/>
+    <path id="Line_24" data-name="Line 24" class="cls-2" transform="translate(8.078 2.902)" d="M3 3 0 0"/>
+    <path id="Line_25" data-name="Line 25" class="cls-2" transform="translate(5.049 2.902)" d="m0 3 3-3"/>
+</svg>

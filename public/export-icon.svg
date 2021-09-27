@@ -1,0 +1,12 @@
+<svg id="ic-file-download" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#7e84a3;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <path id="Path_437" data-name="Path 437" d="M0 0h24v24H0z" style="fill:none"/>
+    <path id="Path_438" data-name="Path 438" class="cls-2" d="M14 3v4a1 1 0 0 0 1 1h4"/>
+    <path id="Path_439" data-name="Path 439" class="cls-2" d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"/>
+    <path id="Line_29" data-name="Line 29" class="cls-2" transform="translate(12 11)" d="M0 0v6"/>
+    <path id="Path_440" data-name="Path 440" class="cls-2" d="m9 14 3 3 3-3"/>
+</svg>
