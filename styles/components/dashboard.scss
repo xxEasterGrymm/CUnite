@@ -174,7 +174,7 @@ p.small{
 }
 #inside-category .grid{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 0.1fr 3fr 1fr;
     margin-top: 15px;
 }
 #inside-category .grid h3{
@@ -182,4 +182,10 @@ p.small{
 } 
 #inside-category .grid h2{
     font-size: 14px;
+}
+.insights{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #0058ff;
 }

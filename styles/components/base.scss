@@ -38,24 +38,25 @@ $Background: #f5f5f5;
 }
 .DownArrow1{
     width: 15px !important;
-    margin-left: 6px;
+    margin-left: 16px;
 }
 .DownArrow2{
     width: 15px !important;
     margin-right: 25px;
 }
 .RightArrow{
-    width: 15px !important;
+    width: 10px !important;
     margin-left: 6px;
     transform: rotate(-90deg);
+    margin-top: 0.1rem;
 }
 .dot {
-    height: 25px;
-    width: 25px;
+    height: 35px;
+    width: 35px;
     background-color: #ffd1d1;
     border-radius: 50%;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 14px;
     margin-left: 10px;
   }
 
@@ -76,15 +77,47 @@ $Background: #f5f5f5;
   border-radius: 6px;
   background-color: #bb2226;
   }
-  .square{
+ 
+  .hr{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-top: 26px;
+    margin-bottom: 20px;
+  }
+  .square1{
     width: 12px;
     height: 12px;
     margin: 4px 20px 4px 0;
     border-radius: 2px;
     background-color: #0058ff;
   }
-  .hr{
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-    margin-top: 26px;
-    margin-bottom: 20px;
+  .square2{
+    width: 12px;
+    height: 12px;
+    margin: 4px 20px 4px 0;
+    border-radius: 2px;
+    background-color: #21d59b
+    ;
+  }
+  .square3{
+    width: 12px;
+    height: 12px;
+    margin: 4px 20px 4px 0;
+    border-radius: 2px;
+    background-color: #ffc700
+    ;
+  }
+  .square4{
+    width: 12px;
+    height: 12px;
+    margin: 4px 20px 4px 0;
+    border-radius: 2px;
+    background-color: #f99600
+    ;
+  }
+  .square5{
+    width: 12px;
+    height: 12px;
+    margin: 4px 20px 4px 0;
+    border-radius: 2px;
+    background-color: #f520ea;
   }
