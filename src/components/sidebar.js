@@ -5,9 +5,6 @@ export default class Sidebar extends React.Component {
     render() {
         return (
             <div id="sidebar">
-            <div id="sidebar-top">
-                <img id="sidebar-icon" src="./CUUnion-logo.svg" />
-            </div>
             <div id="sidebar-mid">
                 <div className="sidebar-mid-option">
                     <img className="sidebar-icon" src="./home-icon.svg" />
@@ -35,11 +32,11 @@ export default class Sidebar extends React.Component {
                 </div>
                 <div className="sidebar-mid-option">
                     <img className="sidebar-icon" src="./calender-icon.svg" />
-                    <NavLink to="/settings" activeClassName="is-active">Calender</NavLink>
+                    <NavLink to="/calender" activeClassName="is-active">Calender</NavLink>
                 </div>
                 <div className="sidebar-mid-option">
                     <img className="sidebar-icon" src="./help-icon.svg" />
-                    <NavLink to="/settings" activeClassName="is-active">Help Center</NavLink>
+                    <NavLink to="/helpCenter" activeClassName="is-active">Help Center</NavLink>
                 </div>
                 <div className="sidebar-mid-option">
                     <img className="sidebar-icon" src="./setting-icon.svg" />
