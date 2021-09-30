@@ -35,11 +35,11 @@ input:focus-visible {
     margin-left: 2rem;
     border: none;
     border-radius: 6px;
-    padding: 0.1rem 0rem 0rem 2.3rem;
+    padding: .1rem 0rem 0rem 2.5rem;
     font-size: 14px;
-    background: url('../public/search-icon.svg') no-repeat rgba(0,0,0,0.05);
-    background-size: 1.2rem;
-    background-position: 0.7rem;
+    background: url('../public/search-icon.svg') no-repeat rgba(0,0,0,.05);
+    background-size: 1rem;
+    background-position: .7rem;
 }
 
 input[type="search"]::-webkit-search-cancel-button {
@@ -53,7 +53,7 @@ input[type="search"]::-webkit-search-cancel-button {
     width: 130px !important;
   }
   #appbar-img{
-    margin: 0.4rem 3rem 0rem 3.5rem;
+    margin: 0.4rem 3.5rem 0rem 40px;
   }
   #appbar-flex{
       display: flex;
