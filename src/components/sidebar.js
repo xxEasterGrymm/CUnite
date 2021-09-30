@@ -8,27 +8,31 @@ export default class Sidebar extends React.Component {
             <div id="sidebar-mid">
                 <div className="sidebar-mid-option">
                     <img className="sidebar-icon" src="./home-icon.svg" />
-                    <NavLink to="/" exact="true" activeClassName="is-active">Dashboard</NavLink>
+                    <NavLink to="/dashboard" exact="true" activeClassName="is-active">Dashboard</NavLink>
                 </div>
                 <div className="sidebar-mid-option">
                     <img className="sidebar-icon" src="./projects-icon.svg" />
-                    <NavLink to="/explore-clubs" activeClassName="is-active" >Projects</NavLink>
+                    <NavLink to="/projects" activeClassName="is-active" >Projects</NavLink>
                 </div>
                 <div className="sidebar-mid-option">
                     <img className="sidebar-icon" src="./inbox-icon.svg" />
-                    <NavLink to="/myclubs" activeClassName="is-active">Inbox</NavLink>
+                    <NavLink to="/inbox" activeClassName="is-active">Inbox</NavLink>
                 </div>
                 <div className="sidebar-mid-option">
                     <img className="sidebar-icon" src="./events-icon.svg" />
-                    <NavLink to="/mentorships" activeClassName="is-active">Events</NavLink>
+                    <NavLink to="/explore-events" activeClassName="is-active">Events</NavLink>
                 </div>
                 <div className="sidebar-mid-option">
                     <img className="sidebar-icon" src="./users-icon.svg" />
-                    <NavLink to="/taskmanagement" activeClassName="is-active">Clubs</NavLink>
+                    <NavLink to="/explore-clubs" activeClassName="is-active">Clubs</NavLink>
                 </div>
                 <div className="sidebar-mid-option">
                     <img className="sidebar-icon" src="./events-icon.svg" />
                     <NavLink to="/chatarea" activeClassName="is-active">Chat Room</NavLink>
+                </div>
+                <div className="sidebar-mid-option">
+                    <img className="sidebar-icon" src="./events-icon.svg" />
+                    <NavLink to="/taskmanagement" activeClassName="is-active">Tasks</NavLink>
                 </div>
                 <div className="sidebar-mid-option">
                     <img className="sidebar-icon" src="./calender-icon.svg" />

@@ -1,9 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Sidebar from "./sidebar";
+import Appbar from "./appbar"
 
 export default class Task extends React.Component {
     render(){
         return (
+            <div id="root">
+    <Sidebar></Sidebar>
+        <div id="root-1">
+            <Appbar></Appbar>
+            <div className="upper-div">
             <div className="bg-color">
              <div id="appbar2-appbar">
                 <div id="appbar2-appbar-search-section">
@@ -24,6 +31,10 @@ export default class Task extends React.Component {
                 </div>
             <img id="task-img" src="./task.jpg"/>
             </div>
+            </div>
+        </div>
+        </div>
+            
         );
     }
 }
