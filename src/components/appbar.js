@@ -6,7 +6,7 @@ export default class Appbar extends React.Component {
             <div id="appbar">
                             <div id="appbar-flex1">
                 <div id="appbar-img">
-                <img id="appbar-logo" src="./CUUnion-logo.svg" />
+                <a href="/"><img id="appbar-logo" src="./CUUnion-logo.svg" /></a>
             </div>
                 <input id="appbar-search" type="search" placeholder="Search..."></input>
                 </div>

@@ -1,0 +1,52 @@
+body {
+    background-color: #ededed;
+}
+
+#event-title {
+    margin-top: 30px;
+    color: #003a8f;
+    font-weight: bold;
+}
+
+.event-tile {
+    height: 200px;
+    width: 200px;
+    background-color: #fefefe;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 110px;
+}
+
+.event-tile > div > h5 {
+    color: #dc3734;
+    font-weight: bold;
+}
+
+div > span {
+    font-size: small;
+}
+
+.long-tile {
+    height: 200px;
+    width: 640px;
+    background-color: #fefefe;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 110px;
+    padding-right: 400px;
+}
+
+.long-tile > div {
+    color: #fefefe;
+    padding: 10px;
+    background-color: #dc3734;
+    border-radius: 10px;
+}
+
+#codejam {
+    background-image: url('../public/codejam.png');
+    background-repeat: no-repeat;
+    background-size: 640px 200px;
+}

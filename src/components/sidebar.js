@@ -28,10 +28,6 @@ export default class Sidebar extends React.Component {
                 </div>
                 <div className="sidebar-mid-option">
                     <img className="sidebar-icon" src="./events-icon.svg" />
-                    <NavLink to="/chatarea" activeClassName="is-active">Chat Room</NavLink>
-                </div>
-                <div className="sidebar-mid-option">
-                    <img className="sidebar-icon" src="./events-icon.svg" />
                     <NavLink to="/taskmanagement" activeClassName="is-active">Tasks</NavLink>
                 </div>
                 <div className="sidebar-mid-option">

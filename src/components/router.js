@@ -13,21 +13,22 @@ import Settings from "./settings";
 import Projects from "./projects";
 import Inbox from "./inbox";
 import Error from "./error";
+import Landing from "../landing/landing";
 
 
 const Router = (props) => {
     console.log(props);
     return (
         <BrowserRouter>
-            <Route path="/">
+            <Route path="/" component={Landing} exact="true">
             </Route>
-            <Route path="/dashboard" component={Dashboard} exact="true">
+            <Route path="/dashboard" component={Dashboard}>
             </Route>
-            <Route path="/projects" component={Projects} exact="true">
+            <Route path="/projects" component={Projects}>
             </Route>
-            <Route path="/inbox" component={Inbox} exact="true">
+            <Route path="/inbox" component={Inbox}>
             </Route>
-            <Route path="/explore-clubs" component={ExploreClubs} exact="true">
+            <Route path="/explore-clubs" component={ExploreClubs}>
             </Route>
             <Route path="/explore-events" component={ExploreEvents}></Route>
             <Route path="/explore-blogs" component={ExploreBlogs}>
