@@ -29,28 +29,115 @@
 .LogoImage h2 {
   margin-top: 1.5rem;
 }
-button {
-  padding: 0.5rem;
-  font-size: 1rem;
-  width: 6rem;
-  margin-top: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  font-family: "Poppins", sans-serif;
-  background-color: black;
-  border: none;
-  border-radius: 1rem;
-  color: white;
-  font-weight: 600;
-}
-
-button:hover {
-  background-color: #5c38ff;
-}
-
 .date {
   padding-top: 1rem;
   margin: 0;
   text-align: center;
   color: rgb(142, 174, 202);
+}
+.small-mid{
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 24.5px;
+}
+#Clubs-box1{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 12px;
+}
+#Clubs-box1 .insideclubs-box1{
+  height: 111px;
+  padding-left: 25px;
+  width: 210px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.small-small{
+  font-size: 14px !important;
+  margin-top: 24px;
+  color: #354052;
+}
+.mid-mid{
+  font-size: 32px !important;
+  margin-top: 3px;
+}
+#Clubs-box2{
+  background-color: white;
+  width: 100%;
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+#insideClubs-box2{
+  display: grid;
+  gap: 30px;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.insideClubs-card1 {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+img.GDSC-Title {
+  width: 100%;
+}
+p.long-long {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.insideClubs-card1 p{
+  text-align: justify;
+}
+.Clubs-button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0 10px 0;
+}
+button {
+  padding: 14px 41px;
+  border-radius: 8px;
+  background-color: white;
+  border: none;
+  font-size: 14px;
+}
+.red {
+  color: #bb2226;
+}
+.insideClubs-card1 p{
+    font-size: 18px;
+    color: #666;
+}
+.long-long{
+  color: black !important;
+}
+#dashboard #Clusters{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+  padding: 18px 25px;
+  border-radius: 8px;
+  color: #bbc5d5;
+}
+#dashboard #clubs {
+  display: flex;
+  gap: 48px;
+  margin-top: 22px;
+  margin-left: 10px;
+} 
+p.faded {
+  color: #bbc5d5;
+}
+.red-border {
+  border-bottom: 3px solid #bb2226;
+  padding-bottom: 6px;
 }

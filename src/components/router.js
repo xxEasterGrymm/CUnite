@@ -14,6 +14,7 @@ import Projects from "./projects";
 import Inbox from "./inbox";
 import Error from "./error";
 import Landing from "../landing/landing";
+import Clubs from "./Clubs";
 
 
 const Router = (props) => {
@@ -29,6 +30,8 @@ const Router = (props) => {
             <Route path="/inbox" component={Inbox}>
             </Route>
             <Route path="/explore-clubs" component={ExploreClubs}>
+            </Route>
+            <Route path="/club" component={Clubs}>
             </Route>
             <Route path="/explore-events" component={ExploreEvents}></Route>
             <Route path="/explore-blogs" component={ExploreBlogs}>
