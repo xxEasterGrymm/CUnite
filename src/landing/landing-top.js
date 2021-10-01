@@ -23,7 +23,7 @@ export default class LandingTop extends React.Component {
         </div>
         <div id="play-text">
           <h3>Google Cloud Days</h3>
-          <span></span> ok ok opk ok ok nijn
+          <span>Google Student Developer Club</span>
         </div>
       </div>
     </div>

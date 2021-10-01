@@ -24,6 +24,7 @@
 /*Clubs-to-join*/
 
 .clubs_to_join{
+    margin: 36px 0 36px 100px;
     font-family: 'Poppins',sans-serif;
 }
 
@@ -36,6 +37,7 @@
 
 .header_content{
     display: flex;
+    align-items: center;
     gap: 4rem;
 }
 
@@ -45,7 +47,7 @@
 
 .std{
     height: 4rem;
-    width: 16rem;
+    width: 17rem;
     background:rgb(238, 238, 238);
     border-radius: 6px;
     display: flex;
@@ -67,6 +69,14 @@
 
 .content_header{
     gap: 1.5rem;
+
+    h4 {
+        color: #bb2226;
+    }
+
+    h5 {
+        color: #b2b2b2;
+    }
 }
 
 .content_header > h4,
@@ -82,6 +92,7 @@
 .content > p{
     font-size: 1.4rem;
     margin: 0;
+    margin-top: 1rem;
 }
 
 .content_main{
@@ -115,7 +126,7 @@
 /*Container*/
 
 .container_box{
-    height: 250px;
+    height: 275px;
     background: var(--color-primary);
     border-radius: 5px;
     display: flex;
@@ -138,5 +149,5 @@
 
 .main{
     max-width: 1440px;
-    margin: 0 auto;
+    // margin: 0 auto;
 }

@@ -92,7 +92,7 @@
     line-height: 1.38;
     letter-spacing: normal;
     text-align: left;
-    color: #fff;
+    // color: #fff;
   }
   #play-text {
     font-family: Poppins;
@@ -106,6 +106,13 @@
     color: #fff;
     padding-top: 2px;
     padding-left: 30px;
+
+    h3{
+      color: #fff;
+    }
+    span{
+      color: #fff;
+    }
   }
   
   #main-div-2 {
