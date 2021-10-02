@@ -6,16 +6,31 @@ body {
     margin-top: 30px;
     color: #003a8f;
     font-weight: bold;
+    margin: 36px 0 36px 100px;
 }
 
 .event-tile {
     height: 200px;
     width: 200px;
     background-color: #fefefe;
-    margin: 20px;
+    margin: 2px 28px;
     border-radius: 10px;
     padding: 20px;
     padding-top: 110px;
+}
+
+.event-title-wrapper {
+    margin: 0 0 0 73px;
+}
+
+.event-org1{
+    display: flex;
+    align-items: center;
+}
+
+.event-org2{
+    display: flex;
+    align-items: center;
 }
 
 .event-tile > div > h5 {
@@ -35,7 +50,17 @@ div > span {
     border-radius: 10px;
     padding: 20px;
     padding-top: 110px;
-    padding-right: 400px;
+    padding-right: 305px;
+    
+    h5{
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    span{
+        color: #fff;
+        font-weight: 100;
+    }
 }
 
 .long-tile > div {

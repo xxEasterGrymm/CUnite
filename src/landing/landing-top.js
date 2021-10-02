@@ -11,7 +11,7 @@ export default class LandingTop extends React.Component {
         src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-left-arrow-mintab-for-ios-becris-lineal-becris.png" />
       <img className="toggle-img"
         src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-next-mintab-for-ios-becris-lineal-becris.png" />
-      <h1 id="main-div-h1"># 30 Days Of Google Cloud</h1>
+      <h1 id="main-div-h1">30 Days Of Google Cloud</h1>
       <p id="main-div-p">
         Google Cloud understands that identity is deeply important. That’s why
         we’re committed to creating programming that drives diversity, equity,
@@ -23,7 +23,7 @@ export default class LandingTop extends React.Component {
         </div>
         <div id="play-text">
           <h3>Google Cloud Days</h3>
-          <span></span> ok ok opk ok ok nijn
+          <span>Google Student Developer Club</span>
         </div>
       </div>
     </div>

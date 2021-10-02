@@ -1,3 +1,18 @@
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border: 2px solid #555555;
+}
+
 .sml-text {
     font-size: 10px;
     padding: 5px;
@@ -92,7 +107,7 @@
     line-height: 1.38;
     letter-spacing: normal;
     text-align: left;
-    color: #fff;
+    // color: #fff;
   }
   #play-text {
     font-family: Poppins;
@@ -106,6 +121,13 @@
     color: #fff;
     padding-top: 2px;
     padding-left: 30px;
+
+    h3{
+      color: #fff;
+    }
+    span{
+      color: #fff;
+    }
   }
   
   #main-div-2 {
